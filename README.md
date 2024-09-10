@@ -6,5 +6,5 @@
 
 
 ## blog-preview-card-component:
-## link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/blog-preview-card-main/index.html)
+### link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/blog-preview-card-main/index.html)
 <img src="https://github.com/user-attachments/assets/8b5f07c5-8a33-4399-bbec-be57be14fcbe" width=300>
