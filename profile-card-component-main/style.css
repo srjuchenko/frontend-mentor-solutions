@@ -30,17 +30,17 @@ body {
 
 .pattern-top {
   position: absolute;
-  width: 60%;
+  width: 50%;
   top: -50%;
-  left: -5%;
+  left: 0;
   z-index: -1;
 }
 
 .pattern-bottom {
-  width: 60%;
+  width: 50%;
   position: absolute;
   bottom: -50%;
-  right: -5%;
+  right: 0;
   z-index: -1;
 }
 
