@@ -30,15 +30,17 @@ body {
 
 .pattern-top {
   position: absolute;
-  top: -40%;
-  left: -60%;
+  width: 80%;
+  top: -20%;
+  left: -20%;
   z-index: -1;
 }
 
 .pattern-bottom {
+  width: 80%;
   position: absolute;
-  bottom: -40%;
-  right: -60%;
+  bottom: -20%;
+  right: -20%;
   z-index: -1;
 }
 
@@ -131,13 +133,5 @@ body {
 @media screen and (width > 375px) {
   .card {
     min-width: 350px;
-  }
-
-  .pattern-top {
-    left: 0%;
-  }
-
-  .pattern-bottom {
-    right: 0%;
   }
 }
