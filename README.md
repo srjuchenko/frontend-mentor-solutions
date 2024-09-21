@@ -17,4 +17,6 @@
 
 <img src="https://github.com/user-attachments/assets/d2601e7e-3ce5-45e4-876a-90d77bc29cde" width=200>
 
-
+### profile-card-component:
+### link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/profile-card-component-main/index.html)
+<img src="https://github.com/user-attachments/assets/70e9cde2-2389-4f09-af16-c6f5d3c5266d" width=200>
