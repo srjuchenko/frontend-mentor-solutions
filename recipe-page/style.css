@@ -200,7 +200,7 @@ footer {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
+    padding: 4rem;
     background-color: var(--stone-100);
   }
 
