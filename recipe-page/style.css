@@ -195,14 +195,29 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (width > 500px) {
+@media screen and (width > 600px) {
   body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
     padding-top: 2rem;
+    background-color: var(--stone-100);
   }
+
+  .card {
+    border-radius: 20px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    background-color: #fff;
+  }
+
   aside,
   header,
   main {
-    max-width: 650px;
+    max-width: 625px;
   }
 
   aside img {
