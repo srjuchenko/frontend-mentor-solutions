@@ -34,12 +34,12 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 320px;
+  width: 90%;
 }
 
 header,
 main {
-  width: 375px;
+  max-width: 500px;
 }
 
 aside img {
@@ -73,50 +73,44 @@ header p {
   background-color: var(--Rose-50);
   border-radius: 10px;
   padding: 24px;
+  padding-right: 75px;
 }
 
 .preparation h3 {
   color: var(--Rose-800);
 }
 
-.preparation ul {
+ul {
+  list-style: none;
   margin-top: 1.1rem;
-  margin-left: 1.1rem;
   color: var(--Stone-600);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.preparation li::marker {
-  color: var(--Brown-800);
+.preparation li,
+.ingredients li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  line-height: 1.5;
 }
 
-.preparation span {
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: var(--Brown-800);
+}
+
+.small-header {
   font-weight: 600;
   color: var(--Stone-600);
-}
-
-.preparation .content {
-  position: relative;
-  left: 1.2rem;
-  max-width: 210px;
 }
 
 .ingredients {
   margin-top: 1.1rem;
   width: 100%;
-}
-
-.ingredients ul {
-  margin-top: 1rem;
-  margin-left: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  color: var(--Stone-600);
-  font-weight: 400;
-  line-height: 1.6;
 }
 
 li::marker {
@@ -133,18 +127,7 @@ li::marker {
   color: var(--Stone-600);
   font-weight: 400;
   line-height: 1.5;
-  font-size: 1.065rem;
-}
-
-li p {
-  position: relative;
-  left: 1.2rem;
-  width: 290px;
-}
-
-.instructions span {
-  font-weight: 600;
-  color: var(--Stone-600);
+  font-size: 1rem;
 }
 
 .container hr {
@@ -164,7 +147,7 @@ li p {
   font-weight: 400;
   color: var(--Stone-600);
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 table {
@@ -173,9 +156,13 @@ table {
   border-collapse: collapse;
 }
 
+th {
+  text-align: left;
+}
+
 table th,
 td {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 table th {
@@ -206,4 +193,23 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (width > 500px) {
+  body {
+    padding-top: 2rem;
+  }
+  aside,
+  header,
+  main {
+    max-width: 650px;
+  }
+
+  aside img {
+    border-radius: 20px;
+  }
+
+  .container {
+    width: 100%;
+  }
 }
