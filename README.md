@@ -20,3 +20,7 @@
 ### profile-card-component:
 ### link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/profile-card-component-main/index.html)
 <img src="https://github.com/user-attachments/assets/70e9cde2-2389-4f09-af16-c6f5d3c5266d" width=200>
+
+
+### recipe-page: 
+### link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/recipe-page/index.html)
