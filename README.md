@@ -26,3 +26,8 @@
 ### link : [click here](https://srjuchenko.github.io/frontend-mentor-solutions/recipe-page/index.html)
 <img src="https://github.com/user-attachments/assets/28c2cca8-20bb-4977-b913-f94b7913dfe5" width=200>
 
+### faq-accordion:
+### link : [click here] (https://srjuchenko.github.io/frontend-mentor-solutions/faq-accordion/index.html)
+<img src="https://github.com/user-attachments/assets/6a971a6a-aa4c-429a-9dc9-17b6caff57aa" width=200>
+
+
