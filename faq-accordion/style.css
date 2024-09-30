@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+// 400 600 700
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Work Sans', system-ui;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--light-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 140px 20px;
+}
+
+.bg {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 240px;
+  background-image: url('./assets/images/background-pattern-mobile.svg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+}
+
+p {
+  all: unset;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: var(--dark-purple);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: var(--dark-purple);
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.questions {
+  all: unset;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.question:last-child {
+  border: none;
+  padding: 0;
+}
+
+.question-title {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-title h2:hover {
+  cursor: pointer;
+  color: rgb(197, 1, 197);
+}
+
+.question {
+  border-bottom: 1px solid var(--grayish-purple);
+  padding-bottom: 1rem;
+}
+
+.question-answer {
+  color: var(--grayish-purple);
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 1.05rem;
+  transition: all 0.5s;
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (width > 375px) {
+  .bg {
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .question-answer {
+    font-size: 1.1rem;
+  }
+}
