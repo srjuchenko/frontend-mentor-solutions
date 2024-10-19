@@ -12,3 +12,6 @@
 | **FAQ Accordion**                  | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/faq-accordion/index.html)               | <img src="https://github.com/user-attachments/assets/6a971a6a-aa4c-429a-9dc9-17b6caff57aa" width="200" height="auto"> |
 | **Results Summary**                | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/results-summary-component/index.html)   | <img src="https://github.com/user-attachments/assets/abedab5b-b01d-4ee3-8e91-aee5a7c96461" width="200" height="auto"> |
 | **Product Preview Card**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/product-preview-card/index.html)        | <img src="https://github.com/user-attachments/assets/6054bb1c-76f2-4c8f-8148-7590ac78b3c0" width="200" height="auto"> |
+| **Interactive Rating**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/interactive-rating/index.html)        | <img src="https://github.com/user-attachments/assets/ba93c703-c25b-4905-8eab-cf6f9422648e" width="200" height="auto"> |
+
+
