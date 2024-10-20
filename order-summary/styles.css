@@ -171,6 +171,11 @@ h2 {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
   }
 }
