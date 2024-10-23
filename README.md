@@ -15,6 +15,5 @@
 | **Interactive Rating**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/interactive-rating/index.html)        | <img src="https://github.com/user-attachments/assets/ba93c703-c25b-4905-8eab-cf6f9422648e" width="200" height="auto"> |
 | **NFT Preview Card**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/nft-preview-card/index.html)        | <img src="https://github.com/user-attachments/assets/9c3930c1-cadc-46f9-9cd2-ead79962d448" width="200" height="auto"> |
 | **Order Summary**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/order-summary/index.html)        | <img src="https://github.com/user-attachments/assets/bebe9861-ae63-44c0-af68-8dd0aa2f6a8b" width="200" height="auto"> |
-
-
+| **Stats Card**           | [View Live](https://srjuchenko.github.io/frontend-mentor-solutions/stats-preview-card/index.html)        | <img src="https://github.com/user-attachments/assets/032c180b-20d8-4a2d-aaaf-7a9c71f4a0b3" width="200" height="auto"> |
 
