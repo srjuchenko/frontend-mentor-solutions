@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+/* font-family: "Lexend Deca", sans-serif;  400*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+/* font-family: "Big Shoulders Display", sans-serif; 700 */
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --green: hsl(179, 100%, 13%);
+
+  --paragraphs-color: hsla(0, 0%, 100%, 0.75);
+  --bg-heading-btns: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--bg-heading-btns);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  max-width: 920px;
+}
+
+.car-items {
+  list-style: none;
+}
+
+.car-item:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.car-item:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.car-item {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--bg-heading-btns);
+  margin-top: 35px;
+}
+
+p {
+  all: unset;
+  margin-top: 35px;
+  color: var(--paragraphs-color);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 30px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: var(--bg-heading-btns);
+  border: none;
+  padding: 16px 30px;
+  border-radius: 50px;
+
+  font-family: 'Lexend Deca', sans-serif;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: auto;
+  border: 1px solid var(--bg-heading-btns);
+}
+
+button:hover {
+  background-color: transparent;
+  color: var(--bg-heading-btns);
+}
+
+.orange-bg {
+  background-color: var(--orange);
+}
+
+.cyan-bg {
+  background-color: var(--cyan);
+}
+
+.green-bg {
+  background-color: var(--green);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+.cyan-text {
+  color: var(--cyan);
+}
+.green-text {
+  color: var(--green);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (width > 750px) {
+  .car-items {
+    display: flex;
+  }
+
+  .car-item:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+  }
+
+  .car-item:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    padding-right: 10px;
+    margin-bottom: 60px;
+  }
+}
